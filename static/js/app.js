@@ -95,7 +95,7 @@ function buildMetadata(sample) {
 // Function to handle the change event when a new sample is selected
 //his  is used whenever a new sample is selected from the dropdown
 function optionChanged(newSample) {
-    // Fetch new data each time a new sample is selected
+    // Fetching new data each time a new sample is selected
     buildCharts(newSample);
     buildMetadata(newSample);
 }
